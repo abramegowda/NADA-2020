@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="3px" viewBox="0 0 62 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 62 (101010) - https://sketch.com -->
+    <title>CF578D41-2794-468A-94E9-8CE2D6B1BFE3@3x</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="9.5734627%" y1="50%" x2="99.4621031%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#05DEBA" offset="0%"></stop>
+            <stop stop-color="#060A14" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="2020-Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="NADA-2020_Micro-site-2" transform="translate(-653.000000, -79.000000)" fill="url(#linearGradient-1)">
+            <g id="Group-9" transform="translate(136.000000, 57.000000)">
+                <path d="M518.5,22 L577.5,22 C578.328427,22 579,22.6715729 579,23.5 C579,24.3284271 578.328427,25 577.5,25 L518.5,25 C517.671573,25 517,24.3284271 517,23.5 C517,22.6715729 517.671573,22 518.5,22 Z" id="Rectangle" transform="translate(548.000000, 23.500000) scale(-1, 1) translate(-548.000000, -23.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

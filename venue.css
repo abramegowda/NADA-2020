@@ -1,0 +1,432 @@
+.section-left {
+    width: 55%;
+    margin-right: 157px;
+}
+
+.section-right {
+    width: 45%;
+}
+
+.section-left .sub-section-left,
+.section-left .sub-section-right,
+.section-right .fname,
+.section-right .lname,
+.section-right .email,
+.section-right .phone {
+    width: 50%;
+}
+
+.main-content,
+.sub-section-content,
+.section-right form .group-1,
+.section-right form .group-2,
+.calendar-dates,
+.section-left .sub-section-left {
+    display: flex;
+}
+
+.section-right form input,
+.section-right form textarea {
+    width: 100%;
+}
+
+.calendar-dates .date-box {
+    width: 33%;
+    border: 0.8px solid #2D2D2D;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.section-left .copy {
+    color: #2D2D2D;	
+    font-family: ProximaNovaRegular;	
+    font-size: 28px;	
+    line-height: 32px;
+    margin-top: 40px;
+    padding-right: 47px;
+}
+
+.sub-section-content {
+    margin-top: 40px;
+}
+
+.section-left .sub-section-left img {
+    width: 16px;
+    height: 20px;
+    margin-right: 16px;
+}
+
+.section-left .sub-section-left {
+    color: #2F313C;	
+    font-family: ProximaNovaRegular;	
+    font-size: 16px;	
+    line-height: 22px;
+    margin-right: 25px;
+}
+
+.section-left .sub-section-left p span {
+    display: block;
+}
+
+.section-left .sub-section-right {
+    padding-left: 25px;
+    border-left: 1px solid #2D2D2D;;
+}
+
+.sub-section-right span {
+    display: block;
+    color: #6C6C6C;	
+    font-family: ProximaNovaItalic;	
+    font-size: 14px;	
+    font-style: italic;	
+    line-height: 17px;
+    margin-bottom: 6px;
+}
+
+.sub-section-right a {
+    color: #007BFE;	
+    font-family: ProximaNovaRegular;	
+    font-size: 18px;	
+    line-height: 22px;
+    text-decoration: none;
+    display: flex;
+}
+
+.sub-section-right a img {
+    margin-left: 16px;
+}
+
+.section-right .heading {
+    color: #2D2D2D;	
+    font-family: ProximaNovaSemiBold;	
+    font-size: 40px;	
+    font-weight: 600;	
+    line-height: 40px;
+    margin-bottom: 8px;
+}
+
+.section-right .copy {
+    color: #2D2D2D;	
+    font-family: ProximaNovaRegular;	
+    font-size: 18px;	
+    line-height: 18px;
+    margin-bottom: 32px;
+}
+
+.section-right .copy.copy-2 {
+    margin-bottom: 43px;
+}
+
+.calendar-dates {
+    margin-bottom: 48px;
+}
+
+.date-box {
+    width: 108px;
+    height: 108px;
+    max-width: 108px;
+}
+
+.date-box:first-child {
+    margin-right: 28.8px;
+}
+
+.date-box:last-child {
+    margin-left: 28.8px;
+}
+
+.date-box .day {
+    color: #2D2D2D;	
+    font-family: ProximaNovaRegular;	
+    font-size: 14px;	
+    line-height: 14.4px;
+    margin: 11px 0 3px;
+}
+
+.date-box .date {
+    color: #2D2D2D;	
+    font-family: ProximaNovaMedium;	
+    font-size: 48px;	
+    font-weight: 500;	
+    line-height: 48px;
+    margin-bottom: 4px;
+}
+
+.date-box .month {
+    color: #FFFFFF;	
+    font-family: ProximaNovaMedium;	
+    font-size: 14px;	
+    font-weight: 500;	
+    line-height: 14.4px; 	
+    background-color: #2D2D2D;
+    height: 28.8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+input {
+    color: #6C6C6C;	
+    font-family: ProximaNovaRegular;	
+    font-size: 14px;	
+    line-height: 17px;
+    border: 0;
+    border-bottom: 	1px solid #C4C7CA;
+    margin-bottom: 48px;
+    outline: none;
+    padding-bottom: 8px;
+}
+
+.dealership-name input:last-child {
+    margin-bottom: 0;
+}
+
+.fname, .email {
+    margin-right: 24.08px
+}
+
+.lname, .phone {
+    margin-left: 24.08px
+}
+
+textarea {
+    margin-top: 48px;
+    height: 50px;
+    resize: none;
+    color: #6C6C6C;	
+    font-family: ProximaNovaRegular;	
+    font-size: 14px;	
+    line-height: 17px;
+    border: 1px solid #C4C7CA;
+    outline: none;
+    padding: 8px;
+}
+
+.add-me-button {
+    margin-top: 40px;
+    height: 56px;	
+    width: 240px;
+    background-color: #05DEBA;
+    color: #000000;	
+    font-family: ProximaNovaBold;	
+    font-size: 18px;	
+    font-weight: bold;	
+    line-height: 22px;	
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.add-me-button:hover {
+    background-color: #2FEDD3;
+}
+
+.add-me-button:active {
+    background-color: #05DEBA;
+}
+
+.slick-dots {
+    bottom: 24px;
+}
+
+.slick-dots li,
+.slick-dots li button {
+    width: 8px;
+    height: 8px;
+}
+
+.slick-dots li button {
+    background: #fff;
+    border-radius: 50%;
+    opacity: 0.6;
+}
+
+.slick-dots li button:before {
+    opacity: 1;
+    color: transparent;
+    background-color: transparent;
+    content: '';
+}
+
+.slick-dots li.slick-active button {
+    opacity: 1;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+@media screen and (max-width:1050px) {
+    #join-list {
+        padding: 80px 9.5px 88px;
+    }
+
+    .dt-only {
+        display: none;
+    }
+
+    .section-left,
+    .lname, .phone,
+    .fname, .email {
+        margin: 0;
+    }
+
+    .section-left,
+    .section-right,
+    .section-right .lname, .section-right .phone,
+    .section-right .fname, .section-right .email,
+    .section-left .sub-section-left, .section-left .sub-section-right {
+        width: 100%;
+    }
+
+    .main-content,
+    .sub-section-content,
+    .section-right form .group-1, 
+    .section-right form .group-2 {
+        flex-direction: column;
+    }
+
+    .section-left .sub-section-right {
+        border: 0;
+        border-top: 1px solid #2D2D2D;
+        padding: 0;
+        padding-top: 24px;
+    }
+
+    .section-left .copy {
+        margin-top: 32px;
+        font-size: 18px;	
+        line-height: 20px;
+    }
+
+    .sub-section-content {
+        margin-top: 24px;
+    }
+
+    .section-left .sub-section-left {
+        font-size: 14px;	
+        line-height: 18px;
+        margin: 0 0 24px;
+    }
+
+    .sub-section-right span {
+        font-size: 12px;	
+        font-style: italic;	
+        line-height: 14px;
+    }
+
+    .sub-section-right a {
+        font-size: 16px;	
+        line-height: 19px;
+        margin-bottom: 95px;
+    }
+
+    .section-right .heading {
+        font-size: 32px;	
+        line-height: 32px;
+        margin-bottom: 6px;
+    }
+
+    .section-right .copy {
+        font-size: 16px;	
+        line-height: 18px;
+    }
+
+    .date-box {
+        width: 95px;
+        height: 95px;
+        max-width: 95px;
+    }
+
+    .date-box .day {
+        font-size: 12.32px;	
+        line-height: 12.67px;
+        margin: 9.68px 0 3px;
+    }
+
+    .date-box .date {
+        font-size: 42.24px;	
+        font-weight: 500;	
+        line-height: 42.24px;
+        margin-bottom: 1px;
+    }
+
+    .date-box .month {
+        font-size: 12.32px;	
+        font-weight: 500;	
+        line-height: 12.67px;
+    }
+
+    .calendar-dates,
+    .section-right .copy.copy-2 {
+        margin-bottom: 40px;
+    }
+
+    input {
+        margin-bottom: 50px;
+    }
+
+    textarea,
+    .add-me-button {
+        margin-top: 50px;
+    }
+
+    .add-me-button {
+        width: 222px;
+        height: 48px;
+        font-size: 14px;	
+        line-height: 14px;
+    }
+}
+
+@media screen and (min-width:1051px) {
+    #join-list {
+        padding: 100px 16px 104px;
+        max-height: 100vh;
+    }
+
+    .mob-only {
+        display: none;
+    }
+
+    @keyframes bounce {
+        0%, 20%, 50%, 80%, 100% {
+          -moz-transform: translateX(0);
+          -ms-transform: translateX(0);
+          -webkit-transform: translateX(0);
+          transform: translateX(0);
+        }
+        40% {
+          -moz-transform: translateX(15px);
+          -ms-transform: translateX(15px);
+          -webkit-transform: translateX(15px);
+          transform: translateX(15px);
+        }
+        60% {
+          -moz-transform: translateX(-10px);
+          -ms-transform: translateX(-10px);
+          -webkit-transform: translateX(-10px);
+          transform: translateX(-10px);
+        }
+      }
+      
+      .bounce {
+        -moz-animation: bounce 1s;
+        -webkit-animation: bounce 1s;
+        animation: bounce 1s;
+      }
+      
+}
+
+@media screen and (min-width:1051px) and (max-width:1440px) {
+    .section-left {
+        margin-right: 70px;
+    }
+}
