@@ -99,6 +99,14 @@
     margin-top: 11px;
 }
 
+.section-right .arc-div-inner {
+    margin-bottom: 24px;
+}
+
+.section-right .arc-div-inner img {
+    max-width: 213px;
+}
+
 @media screen and (max-width:1024px) {
 
     #nada-2020-lp {
@@ -111,8 +119,13 @@
 
     .join-cta .container-div .span-1,
     .NADA-2020,
-    .container-div {
+    .container-div,
+    .section-right .arc-div-inner {
         display: none;
+    }
+
+    .social-connect div {
+        color: #2D2D2D;
     }
 
     .nada-hero {
@@ -170,12 +183,15 @@
         z-index: 1;
     }
 
-    .car-bg-mobile div {
-        text-align: center;
+    .car-bg-mobile .arc-div {
+        width: 85%;
+        text-align: left;
         position: absolute;
         left: 0;
         right: 0;
         bottom: -25px;
+        margin: 0 auto;
+        padding: 0 9.5px;
     }
 
     .hero-bottom-content {
@@ -189,14 +205,22 @@
         width: 100%;
     }
 
+    .hero-bottom-content .section-left .copy {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .hero-bottom-content .section-right .copy {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 20.54px;
+    }
+
     .hero-bottom-content .section-right .copy.copy-2 {
         margin-top: 16px;
         margin-bottom: 88px;
-    }
-
-    .hero-bottom-content .section-left .copy {
-        font-size: 24px;
-        margin-bottom: 20.54px;
+        font-size: 14px;
+        line-height: 18px;
     }
 
     .venue-container {
@@ -235,8 +259,7 @@
 
     #nada-2020-lp {
         background: url(images/car-and-bg.jpg) center 0 no-repeat;
-        background-size: 100vw;
-        /* padding-bottom: 70px; */
+        background-size: 100vw 100vh;
     }
 
     .nada-hero {
@@ -267,11 +290,21 @@
     }
 }
 
-@media screen and (min-height:900px) and (min-width:1440px) {
+@media screen and (min-width:1025px) and (max-width:1439px) {
     #nada-2020-lp {
+        background: url(images/car-and-bg.jpg) center 0 no-repeat;
         background-size: 100vw 100vh;
+        padding-bottom: 70px;
+        background-color: #060a14;
     }
-    
+
+    .hero-bottom-content .section-left .copy {
+        font-size: 24px;
+        line-height: 28px;
+    }
+}
+
+@media screen and (min-height:900px) and (min-width:1440px) {
     .max-height {
         max-height: 100vh;
         display: flex;

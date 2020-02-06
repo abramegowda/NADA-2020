@@ -1,3 +1,20 @@
+nav.main-menu .menu ul li a {
+    color: #2D2D2D;
+    opacity: 0.7;
+}
+
+nav.main-menu .menu ul li a:hover {
+    opacity: 1;
+}
+
+.social-connect div {
+    color: #2D2D2D;	
+    font-family: ProximaNovaMedium;	
+    font-size: 14px;	
+    font-weight: 500;	
+    line-height: 17px;
+}
+
 .section-left {
     width: 55%;
     margin-right: 157px;
