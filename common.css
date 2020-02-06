@@ -163,12 +163,8 @@ nav.main-menu .menu ul li a:hover {
     .mobile-menu-close-icon {
         padding: 20px;
         position: absolute;
-        left: 40px;
+        left: 20px;
         top: -20px;
-    }
-
-    .fa.fa-times {
-        color: #444f5c;
     }
 
     .menu-hide {

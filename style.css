@@ -138,15 +138,20 @@
 
     .NADA-2020-mobile {
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .NADA-2020-mobile .img-1 {
         width: 65%;
         margin-bottom: 18.82px;
+        max-width: 320px;
     }
 
     .NADA-2020-mobile .img-2 {
         width: 97%;
+        max-width: 475px;
     }
 
     .join-cta .container-div-mobile {

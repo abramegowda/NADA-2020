@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Close</title>
+    <desc>Created with Sketch.</desc>
+    <g id="2020-Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Close">
+            <rect id="Rectangle" x="0" y="0" width="16" height="16"></rect>
+            <g fill="#9B9EA1" id="Rectangle">
+                <path d="M-1,7 L17,7 C17.5522847,7 18,7.44771525 18,8 C18,8.55228475 17.5522847,9 17,9 L-1,9 C-1.55228475,9 -2,8.55228475 -2,8 C-2,7.44771525 -1.55228475,7 -1,7 Z" transform="translate(8.000000, 8.000000) rotate(-315.000000) translate(-8.000000, -8.000000) "></path>
+                <path d="M-1,7 L17,7 C17.5522847,7 18,7.44771525 18,8 C18,8.55228475 17.5522847,9 17,9 L-1,9 C-1.55228475,9 -2,8.55228475 -2,8 C-2,7.44771525 -1.55228475,7 -1,7 Z" transform="translate(8.000000, 8.000000) scale(-1, 1) rotate(-315.000000) translate(-8.000000, -8.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
