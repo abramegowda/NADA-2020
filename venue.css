@@ -430,3 +430,26 @@ textarea {
         margin-right: 70px;
     }
 }
+
+@media screen and (min-height:900px) and (min-width:1440px) {
+    .max-height {
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        height: 10vh;
+    }
+
+    #join-list {
+        height: 90vh;
+        padding-top: 60px;
+    }
+}
+
+@media screen and (min-height:1050px) and (min-width:1441px) {
+    #join-list {
+        padding-top: 100px;
+    }
+}
