@@ -57,6 +57,10 @@
     text-align: left;
 }
 
+.hero-bottom-content .section-right {
+    width: 47%;
+}
+
 .hero-bottom-content .section-left .sub-section-left {
     color: #FFFFFF;	
     font-family: "Adlery Pro";	
@@ -263,8 +267,9 @@
     }
 
     #nada-2020-lp {
-        background: url(images/car-and-bg.jpg) center 0 no-repeat;
+        background: url(images/car-and-bg.jpg) center -22px no-repeat;
         background-size: 100vw;
+        background-color: #050913; 
     }
 
     .nada-hero {

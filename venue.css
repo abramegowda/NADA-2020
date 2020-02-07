@@ -71,6 +71,8 @@ nav.main-menu .menu ul li a:hover {
     width: 16px;
     height: 20px;
     margin-right: 16px;
+    position: absolute;
+    top: 3px;
 }
 
 .section-left .sub-section-left {
@@ -78,15 +80,20 @@ nav.main-menu .menu ul li a:hover {
     font-family: ProximaNovaRegular;	
     font-size: 16px;	
     line-height: 22px;
-    margin-right: 25px;
+    margin-right: 32px;
+    position: relative;
 }
 
 .section-left .sub-section-left p span {
     display: block;
 }
 
+.section-left .sub-section-left p {
+    margin-left: 32px;
+}
+
 .section-left .sub-section-right {
-    padding-left: 25px;
+    padding-left: 32px;
     border-left: 1px solid #2D2D2D;;
 }
 
