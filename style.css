@@ -264,7 +264,7 @@
 
     #nada-2020-lp {
         background: url(images/car-and-bg.jpg) center 0 no-repeat;
-        background-size: 100vw 100vh;
+        background-size: 100vw;
     }
 
     .nada-hero {
@@ -297,8 +297,8 @@
 
 @media screen and (min-width:1025px) and (max-width:1439px) {
     #nada-2020-lp {
-        background: url(images/car-and-bg.jpg) center 0 no-repeat;
-        background-size: 100vw 100vh;
+        background: url(images/car-and-bg.jpg) center center no-repeat;
+        background-size: 100vw;
         padding-bottom: 70px;
         background-color: #060a14;
     }
