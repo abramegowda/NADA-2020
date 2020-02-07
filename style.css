@@ -22,7 +22,7 @@
     line-height: 22px;
     text-align: center;
     width: 272px;
-    padding-top: 20px;
+    padding-top: 18px;
     z-index: 0;
     padding-right: 0;
 }
@@ -39,8 +39,13 @@
 }
 
 .hero-bottom-content {
-    margin-top: 209px;
+    /* margin-top: 209px; */
+    margin-top: 160px;
     display: flex;
+}
+
+.hero-bottom-content.hero-bottom-content-2 {
+    margin-top: 0;
 }
 
 .venue-container {
@@ -111,6 +116,10 @@
     max-width: 213px;
 }
 
+.legal {
+    color: #FFFFFF;	
+}
+
 @media screen and (max-width:1024px) {
 
     #nada-2020-lp {
@@ -126,6 +135,10 @@
     .container-div,
     .section-right .arc-div-inner {
         display: none;
+    }
+
+    .join-cta {
+        height: 40px;
     }
 
     .social-connect div {
@@ -298,6 +311,10 @@
     .hero-bottom-content .section-right {
         margin-bottom: 40px;
     }
+
+    .hero-bottom-content.hero-bottom-content-1 .section-right {
+        margin-bottom: 0;
+    }
 }
 
 @media screen and (min-width:1025px) and (max-width:1439px) {
@@ -330,7 +347,7 @@
     }
 }
 
-@media screen and (min-height:900px) and (max-height:1024px) and (min-width:1440px) {
+@media screen and (min-height:900px) and (max-height:999px) and (min-width:1440px) {
     .nada-banner {
         margin-top: 130px;
     }
