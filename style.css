@@ -39,7 +39,6 @@
 }
 
 .hero-bottom-content {
-    /* margin-top: 209px; */
     margin-top: 160px;
     display: flex;
 }
@@ -280,9 +279,10 @@
     }
 
     #nada-2020-lp {
-        background: url(images/car-and-bg.jpg) center -22px no-repeat;
-        background-size: 100vw;
-        background-color: #050913; 
+        background: url(images/car-and-bg.jpg) right 60% no-repeat;
+        background-size: 73vw;
+        background-color: #050913;  
+        background-attachment: fixed;
     }
 
     .nada-hero {
@@ -291,6 +291,10 @@
 
     .nada-banner {
         margin-top: 194px;
+    }
+
+    .nada-banner img {
+        width: 45%;
     }
 }
 
@@ -319,15 +323,32 @@
 
 @media screen and (min-width:1025px) and (max-width:1439px) {
     #nada-2020-lp {
-        background: url(images/car-and-bg.jpg) center center no-repeat;
-        background-size: 100vw;
         padding-bottom: 70px;
-        background-color: #060a14;
     }
 
     .hero-bottom-content .section-left .copy {
         font-size: 24px;
         line-height: 28px;
+    }
+}
+
+@media screen and (min-width:1341px) {
+    #nada-2020-lp {
+        background: url(images/car-and-bg.jpg) right 50% no-repeat;
+        padding-bottom: 0;
+        height: 100vh;
+        background-size: 66vw;
+        background-color: #050913;  
+    }
+}
+
+@media screen and (min-width:1341px) {
+    #nada-2020-lp {
+        background: url(images/car-and-bg.jpg) right 60% no-repeat;
+        padding-bottom: 0;
+        height: 100vh;
+        background-size: 66vw;
+        background-color: #050913;  
     }
 }
 
