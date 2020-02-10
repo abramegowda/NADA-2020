@@ -3,7 +3,9 @@ $(document).ready(function($) {
         infinite: true,
         dots: true,
         slidesToShow: 1,
-        adaptiveHeight: true
+        adaptiveHeight: true,
+        autoplay: true,
+        autoplaySpeed:1500
       });
 
       $('.sub-section-right a').mouseenter(function(){

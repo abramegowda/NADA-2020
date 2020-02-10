@@ -123,7 +123,8 @@ nav.main-menu .menu ul li a:hover {
 .social-connect div a img {
     width: 30px;
     height: 30px;
-    transition: width 0.1s, height 0.1s;;
+    transition: width 0.1s, height 0.1s;
+    opacity: 0.7;
 }
 
 .social-connect div a:hover img {
