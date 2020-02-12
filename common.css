@@ -144,6 +144,29 @@ nav.main-menu .menu ul li a:hover {
     line-height: 14px;
 }
 
+.module {
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-duration: 1.5s;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 20%, 0)
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+.fadeInUp {
+    animation-name: fadeInUp;
+    animation-delay: .3s;
+}
+
 @media screen and (max-width:1024px) {
 
     .max-container-width {
