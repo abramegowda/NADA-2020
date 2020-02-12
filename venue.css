@@ -249,6 +249,9 @@ textarea {
     transition: 0.3s;
     border: 0;
     outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 .add-me-button:hover {
@@ -296,7 +299,7 @@ form label {
 
 @media screen and (max-width:1050px) {
     #join-list {
-        padding: 80px 9.5px 88px;
+        padding: 17px 9.5px 88px;
     }
 
     .dt-only {
