@@ -42,7 +42,7 @@ nav.main-menu .menu ul li a:hover {
     display: flex;
 }
 
-.section-right form input,
+.section-right form .input-field,
 .section-right form textarea {
     width: 100%;
 }
@@ -191,7 +191,7 @@ nav.main-menu .menu ul li a:hover {
     border-bottom-right-radius: 12px;
 }
 
-input {
+.input-field {
     color: #6C6C6C;	
     font-family: ProximaNovaRegular;	
     font-size: 14px;	
@@ -200,10 +200,10 @@ input {
     border-bottom: 	1px solid #C4C7CA;
     margin-bottom: 48px;
     outline: none;
-    padding-bottom: 8px;
+    padding: 8px 0;
 }
 
-.dealership-name input:last-child {
+.dealership-name .input-field:last-child {
     margin-bottom: 0;
 }
 
@@ -232,6 +232,7 @@ textarea {
     margin-top: 40px;
     height: 56px;	
     width: 240px;
+    max-width: 240px;
     background-color: #05DEBA;
     color: #000000;	
     font-family: ProximaNovaBold;	
@@ -246,6 +247,8 @@ textarea {
     justify-content: center;
     align-items: center;
     transition: 0.3s;
+    border: 0;
+    outline: none;
 }
 
 .add-me-button:hover {
@@ -285,6 +288,10 @@ textarea {
 
 .slick-slide img {
     width: 100%;
+}
+
+form label {
+    display: none;
 }
 
 @media screen and (max-width:1050px) {
@@ -393,7 +400,7 @@ textarea {
         margin-bottom: 40px;
     }
 
-    input {
+    .input-field {
         margin-bottom: 50px;
     }
 
@@ -404,6 +411,7 @@ textarea {
 
     .add-me-button {
         width: 222px;
+        max-width: 222px;
         height: 48px;
         font-size: 14px;	
         line-height: 14px;
