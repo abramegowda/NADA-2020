@@ -201,6 +201,9 @@ nav.main-menu .menu ul li a:hover {
     margin-bottom: 48px;
     outline: none;
     padding: 8px 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 .dealership-name .input-field:last-child {
@@ -226,6 +229,9 @@ textarea {
     border: 1px solid #C4C7CA;
     outline: none;
     padding: 8px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 .add-me-button {
